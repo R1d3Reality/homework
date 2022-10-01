@@ -1,5 +1,5 @@
 html {
-    background: url(../img/bg-image.png) no-repeat center center fixed;
+    background: url(/img/bg-image.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,4 +27,11 @@ li a {
 
 li a:hover {
     background-color: #282828;
+}
+
+.container {
+    background-color: white;
+    width: 1024px;
+    max-width: 90%;
+    margin: 0 auto;
 }
