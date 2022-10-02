@@ -28,7 +28,7 @@
     background-color: #282828;
 }
 
-/* Style index-eng */
+/* Style CV */
 .main {
     max-width: 90%;
     position: absolute;
@@ -58,7 +58,7 @@
     text-align: center;
 }
 
-.info a{
+.info a {
     text-decoration: none;
 }
 
