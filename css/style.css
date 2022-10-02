@@ -29,6 +29,15 @@
 }
 
 /* Style index-eng */
+.main {
+    width: 1024px;
+    max-width: 90%;
+}
+
+.main p {
+    color: white;
+}
+
 .main img {
     display: block;
     margin-left: auto;
