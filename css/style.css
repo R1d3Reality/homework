@@ -170,6 +170,7 @@ main {
 
 .table a {
     color: black;
+    text-decoration: none;
 }
 .table th {
     font-weight: bold;
