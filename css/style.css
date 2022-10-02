@@ -35,7 +35,7 @@
     max-width: 90%;
     position: absolute;
     margin: auto;
-    top: 0;
+    top: 5%;
     right: 0;
     bottom: 0;
     left: 0;
@@ -76,17 +76,104 @@
 .center {
     position: absolute;
     margin: auto;
-    top: 0;
+    top: 10%;
     right: 0;
     bottom: 0;
     left: 0;
     padding: 10px;
 }
-.center li a {
+.center li {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
+}
+.center a {
     text-decoration: none;
 }
 /* End styles homeworkpage */
+
+/* Styles lesson2 */
+.lesson2 {
+    width: 90%;
+    margin: 5% auto;
+    background-color: lightgrey;
+}
+
+#wrapper {
+    background-color: white;
+}
+
+#wrapper h1 {
+    margin: 1% 0%;
+    padding: 0.25 em;
+    background-color: #efefef;
+}
+
+#wrapper h1, p, ul {
+    text-align: center;
+}
+
+main {
+    overflow: auto;
+}
+
+.nav-lesson2, #feature, footer {
+    margin: 3% 0%;
+}
+
+.nav-lesson2 a {
+    text-decoration: none;
+}
+
+.nav-lesson2 li {
+    display: inline;
+    padding: 0.5em;
+}
+
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+}
+
+.column1 {
+    float: left;
+}
+.column2 {
+    margin: 0% 3%;
+}
+.column3 {
+    float: right;
+    margin: 0%;
+}
+
+.nav-lesson2, footer {
+    background-color: #efefef;
+    padding: 0.5em 0;
+}
+
+#feature, section {
+    background-color: #efefef;
+    height: 10em;
+    margin-bottom: 1em;
+}
+
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+.table td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+    text-align: center;
+}
+/*End styles lesson2 */
