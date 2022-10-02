@@ -93,13 +93,13 @@
 
 /* Styles lesson2 */
 .lesson2 {
+    width: 1024px;
+    max-width: 90%;
     margin: 5% auto;
     background-color: lightgrey;
 }
 
 #wrapper {
-    width: 1024px;
-    max-width: 90%;
     margin: 10% auto;
     background-color: white;
 }
