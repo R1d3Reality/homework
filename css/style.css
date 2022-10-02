@@ -42,7 +42,7 @@
     left: 0;
     padding: 10px;
 }
-.main p h2 a {
+.main p, h2, a {
     color: white;
 }
 
