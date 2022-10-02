@@ -4,7 +4,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 2560px;
     max-width: 90%;
 }
 .home-nav ul {
@@ -95,7 +94,7 @@
 
 /* Styles lesson2 */
 .lesson2 {
-    width: 90%;
+
     margin: 5% auto;
     background-color: lightgrey;
 }
