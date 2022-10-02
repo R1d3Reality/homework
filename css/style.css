@@ -119,7 +119,7 @@ main {
     overflow: auto;
 }
 
-.nav-lesson2, #feature, footer {
+.nav-lesson2, #feature, #feature-2, footer {
     margin: 3% 0;
 }
 
@@ -154,7 +154,7 @@ main {
     padding: 0.5em 0;
 }
 
-#feature, section {
+#feature, #feature-2, section {
     background-color: #efefef;
     height: 10em;
     margin-bottom: 1em;
