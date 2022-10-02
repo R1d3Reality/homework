@@ -4,7 +4,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    max-width: 90%;
 }
 .home-nav ul {
     list-style-type: none;
@@ -94,13 +93,19 @@
 
 /* Styles lesson2 */
 .lesson2 {
-
     margin: 5% auto;
     background-color: lightgrey;
 }
 
 #wrapper {
     background-color: white;
+    position: absolute;
+    margin: auto;
+    top: 10%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
 }
 
 #wrapper h1 {
