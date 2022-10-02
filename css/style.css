@@ -32,11 +32,17 @@
 
 /* Style index-eng */
 .main {
-    width: 1024px;
+    width:2560px;
     max-width: 90%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
 }
-
-.main p {
+.main p h2 a {
     color: white;
 }
 
