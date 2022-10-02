@@ -4,6 +4,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 2560px;
+    max-width: 90%;
 }
 .home-nav ul {
     list-style-type: none;
