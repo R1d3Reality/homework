@@ -1,5 +1,5 @@
 .home-page {
-    background-color: #000; no-repeat center center fixed;
+    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -106,7 +106,7 @@
 }
 
 #wrapper h1 {
-    margin: 1% 0%;
+    margin: 1% 0;
     padding: 0.25em;
     background-color: #efefef;
 }
@@ -120,7 +120,7 @@ main {
 }
 
 .nav-lesson2, #feature, footer {
-    margin: 3% 0%;
+    margin: 3% 0;
 }
 
 .nav-lesson2 a {
@@ -142,11 +142,11 @@ main {
     float: left;
 }
 .column2 {
-    margin: 0% 3%;
+    margin: 0 3%;
 }
 .column3 {
     float: right;
-    margin: 0%;
+    margin: 0;
 }
 
 .nav-lesson2, footer {
