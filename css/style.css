@@ -39,7 +39,7 @@
     left: 0;
     padding: 10px;
 }
-.main p, h2, h3, h4, li {
+.main p, h2, h3, h4, li, a {
     color: white;
 }
 
@@ -88,6 +88,7 @@
 }
 .center a {
     text-decoration: none;
+    color: white;
 }
 /* End styles homeworkpage */
 
