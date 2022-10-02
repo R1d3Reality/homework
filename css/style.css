@@ -29,8 +29,139 @@ li a:hover {
     background-color: #282828;
 }
 
-.container {
+/* Style homeworkpage */
+
+.center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+.center li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* End of styles */
+
+
+
+/* Style lesson 1 index-eng */
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 360px;
+}
+h2 {
+    text-align: center;
+}
+.info {
+    text-align: center;
+}
+
+.info a{
+    text-decoration: none;
+}
+
+.info li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+
+/* End styles */
+
+/*Styles lesson 2 index.html */
+.lesson2 {
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+
+#wrapper {
     background-color: white;
+}
+
+h1 {
+    margin: 1% 0%;
+    padding: 0.25em;
+    background-color: #efefef;
+}
+#wrapper h1, p, ul {
+    text-align: center;
+}
+
+main {
+    overflow: auto;
+}
+#wrapper nav, #feature, footer {
+    margin: 3% 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+}
+
+.column1 {
+    float: left;
+}
+.column2 {
+    margin: 0% 3%;
+}
+.column3 {
+    float: right;
+    margin: 0%;
+}
+
+#wrapper li {
+    display: inline;
+    padding: 0.5em;
+}
+
+nav, footer {
+    background-color: #efefef;
+    padding: 0.5em 0;
+}
+#feature, section {
+    background-color: #efefef;
+    height: 10em;
+    margin-bottom: 1em;
+}
+
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+.table td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+    text-align: center;
+}
+/*End of styles */
+
+
+.container {
+    background-color: yellow;
     width: 1024px;
     max-width: 90%;
     margin: 0 auto;
