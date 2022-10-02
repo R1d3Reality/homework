@@ -125,6 +125,7 @@ main {
 
 .nav-lesson2 a {
     text-decoration: none;
+    color: black;
 }
 
 .nav-lesson2 li {
@@ -165,6 +166,10 @@ main {
     margin-bottom: 20px;
     border: 1px solid #dddddd;
     border-collapse: collapse;
+}
+
+.table a {
+    color: black;
 }
 .table th {
     font-weight: bold;
