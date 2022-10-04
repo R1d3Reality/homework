@@ -122,7 +122,9 @@ main {
 .nav-lesson2, #feature, #feature-2, footer {
     margin: 3% 0;
 }
-
+form {
+    margin: 2% auto;
+}
 .nav-lesson2 a {
     text-decoration: none;
     color: black;
