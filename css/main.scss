@@ -1,9 +1,10 @@
 ---
 ---
 
-@import "cv";
-@import "homeworkpage";
-@import "lesson2";
+@import
+ "cv.scss",
+  "homeworkpage",
+  "lesson2";
 
 .home-page {
   background-color: #000;
