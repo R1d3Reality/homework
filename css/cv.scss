@@ -1,0 +1,37 @@
+.main {
+  max-width: 90%;
+  position: absolute;
+  margin: auto {
+    top: 5%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  padding: 10px;
+  p, h2, h3, h4, li, a {
+    color: white;
+  }
+  img {
+    display: block;
+    margin: {
+      left: auto;
+      right: auto;
+    }
+    height: 360px;
+  }
+}
+
+.info {
+  text-align: center;
+  h2 {
+    text-align: center;
+  }
+  a {
+    text-align: center;
+  }
+  li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+  }
+}
