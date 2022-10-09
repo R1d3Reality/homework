@@ -27,6 +27,12 @@
   padding: 20px;
 }
 
+.header__menu__list__item__link {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
 .photo__info h1 {
   font-family: "Open Sans";
   font-style: normal;
