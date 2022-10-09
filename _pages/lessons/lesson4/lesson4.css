@@ -1,0 +1,135 @@
+.container {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 50px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #828282;
+}
+.header__menu__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__menu__list__item {
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  padding: 20px;
+}
+
+.photo__info h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+}
+
+#aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F6F6F6;
+}
+#aboutme p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#skills h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#skills img {
+  padding: 20px;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F6F6F6;
+}
+#portfolio p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #828282;
+}
+.footer__contacts p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+.footer__contacts__button {
+  background-color: #070707;
+  color: white;
+  width: 200px;
+  border-radius: 25px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+.footer__social__media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+.footer__social__media img {
+  padding: 20px;
+}
+
+/*# sourceMappingURL=lesson4.css.map */
