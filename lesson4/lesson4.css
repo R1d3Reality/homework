@@ -169,7 +169,7 @@
   padding: 20px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .header__menu__list {
     flex-direction: column;
   }
@@ -178,13 +178,10 @@
   }
   .skills__section__logo img {
     width: 33%;
-    margin-left: 3%;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .skills__section__logo img {
     width: 50%;
     padding: 50px;
@@ -192,5 +189,4 @@
     margin-left: 10%;
   }
 }
-
 /*# sourceMappingURL=lesson4.css.map */
