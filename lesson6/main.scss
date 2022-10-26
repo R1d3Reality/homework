@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#wrapper {
+
+  &.open {
+    .sidebar {
+      width: 260px;
+
+      &__inner__header__btn {
+        background: url("assets/close.svg") no-repeat center ;
+      }
+    }
+  }
+}
+
+.sidebar {
+  position: absolute;
+  overflow: hidden;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 72px;
+  background: #FFFFFF;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+    &__inner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 300px;
+
+        &__menu {
+          display: flex;
+          flex-direction: column;
+
+            &__element {
+              display: flex;
+              gap: 25px;
+              align-items: center;
+              height: 60px;
+              padding: 0 25px;
+
+              &:hover {
+                background: #9E8CFC;
+                box-shadow: 0 0 20px rgba(158, 140, 252, 0.7);
+                cursor: pointer;
+              }
+            }
+        }
+
+        &__header {
+          display: flex;
+          align-items: center;
+          height: 72px;
+          padding: 0 1.25rem 0 0;
+
+          &__btn {
+            width: 72px;
+            height: 72px;
+            background: url("assets/open.svg") no-repeat center ;
+            border: 0;
+          }
+        }
+    }
+}
+
+.sidebar__inner__name {
+    padding: 0 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    text-transform: uppercase;
+}
+
+.border {
+  border-bottom: 4px dashed #9E8CFC;
+}
+
+.content {
+  width: 100%;
+  max-width: 1170px;
+  margin: 2% 1% 0 19%;
+
+    &__header {
+      display: flex;
+      align-items: center;
+      height: 80px;
+      background: #FFFFFF;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+
+        &__panel {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          max-width: 200px;
+        }
+        &__settings {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+
+          margin-left: 20%;
+
+          &__language {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 45%;
+
+            span {
+              margin-left: 25px;
+            }
+          }
+
+          &__profile {
+            margin-right: 2%;
+          }
+        }
+    }
+
+    &__main {
+      margin-top: 2%;
+
+      img {
+        width: 100%;
+        max-width: 1170px;
+      }
+    }
+}
