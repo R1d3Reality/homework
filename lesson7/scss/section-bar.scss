@@ -1,0 +1,37 @@
+@import "variables";
+
+.section__bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+    &__title {
+      font-family: $primaryFont;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 166%;
+      letter-spacing: 0.1em;
+      color: #000000;
+    }
+
+    &__text {
+      font-family: $secondaryFont;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 166%;
+      letter-spacing: 0.1em;
+      color: #7B7B7B;
+      cursor: pointer;
+      padding-right: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .section__bar {
+    flex-direction: column;
+    align-items: start;
+    padding: 0;
+  }
+}

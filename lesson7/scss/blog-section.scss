@@ -1,0 +1,28 @@
+@import "variables";
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  .title {
+    display: flex;
+    width: 1160px;
+    max-width: 100%;
+    margin: 2% auto;
+
+    &__article {
+      font-family: $secondaryFont;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 64px;
+      letter-spacing: 0.05em;
+      color: #000000;
+      padding: 20px;
+    }
+  }
+}
+

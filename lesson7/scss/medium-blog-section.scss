@@ -1,0 +1,75 @@
+@import "variables";
+
+.medium__section {
+  display: flex;
+  width: 100%;
+  max-width: 1170px;
+  flex-direction: column;
+  margin: 150px 135px 0 135px;
+
+  &__post {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1170px;
+
+    &__card {
+      display: flex;
+      flex-direction: column;
+      padding-right: 30px;
+
+      img {
+        width: 100%;
+        max-width: 570px;
+      }
+    }
+  }
+
+  &__btn {
+    font-family: $secondaryFont;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    background: #565656;
+    color: #FFFFFF;
+    min-width: 180px;
+    min-height: 46px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .medium__section {
+    max-width: 320px;
+    margin: 0 auto;
+
+    &__post {
+      flex-direction: column;
+
+      &__card {
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .medium__section {
+    max-width: 768px;
+    margin: 0 auto;
+
+    &__post {
+      max-width: 768px;
+
+      &__card {
+        padding: 10px;
+      }
+    }
+  }
+}
